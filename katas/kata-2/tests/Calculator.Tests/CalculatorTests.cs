@@ -35,7 +35,21 @@ namespace Calculator.Tests
             result.Should().Be(6);
         }
 
-     
+        [Fact]
+        public void Multiply_TwoNumbers_ReturnsResult()
+        {
+            // Arrange
+            int a = 7;
+            int b = 4;
+
+            // Act
+            int result = _calculator.Multiply(a, b);
+
+            // Assert
+            result.Should().Be(28);
+        }
+
+
         // TODO: Implementa más tests usando TDD
         // Suggestions:
         // - Test multiply with positive numbers
