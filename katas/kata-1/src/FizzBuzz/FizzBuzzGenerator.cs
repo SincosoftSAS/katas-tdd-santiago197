@@ -5,19 +5,11 @@ namespace FizzBuzz
         public static List<string> Generate(int count)
         {
             var result = new List<string>();
-            if (count == 1)
-                result.Add("1");
-            if (count == 2)
+            for (var i = 1; i < count; i++)
             {
-                result.Add("1");
-                result.Add("2");
-            }
-
-            if (count == 3)
-            {
-                result.Add("1");
-                result.Add("2");
-                result.Add("Fizz");
+                result.Add(i.ToString());
+                if (i == 2)
+                    result.Add("Fizz");
             }
 
             return result;
