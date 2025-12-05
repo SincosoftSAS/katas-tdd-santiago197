@@ -15,6 +15,16 @@ namespace FizzBuzz.Tests
             result.Should().HaveCount(1);
             result[0].Should().Be("1");
         }
+        [Fact]
+        public void Generate_WithTwo_ReturnsListWithTwo()
+        {
+            // Arrange & Act
+            var result = FizzBuzzGenerator.Generate(2);
+            
+            // Assert
+            result.Should().HaveCount(2);
+            result.Should().BeEquivalentTo(["1","2"]);
+        }
         
         [Fact]
         public void Generate_WithFifteen_ReturnsListWithFizzBuzz()
