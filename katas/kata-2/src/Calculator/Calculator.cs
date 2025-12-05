@@ -19,9 +19,8 @@ namespace Calculator
 
         public int Divide(int a, int b)
         {
-            // TODO: Implement using TDD: Red → Green → Refactor
             // Hint: ¿Qué pasa si b es 0?
-            return 4;
+            return a / b;
         }
     }
 }
