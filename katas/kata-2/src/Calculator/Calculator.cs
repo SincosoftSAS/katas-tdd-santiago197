@@ -21,7 +21,7 @@ namespace Calculator
         {
             // TODO: Implement using TDD: Red → Green → Refactor
             // Hint: ¿Qué pasa si b es 0?
-            throw new NotImplementedException("Implement using TDD: Red → Green → Refactor");
+            return 4;
         }
     }
 }
