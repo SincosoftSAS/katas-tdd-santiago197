@@ -7,22 +7,17 @@ namespace FizzBuzz
             var result = new List<string>();
             for (var number = 1; number <= count; number++)
             {
-                if (IsMultipleOf(number, 15))
-                {
-                    result.Add("FizzBuzz");
-                    continue;
-                }
+                var text = "";
+                if (IsMultipleOf(number, 3)) text += "Fizz";
+                if (IsMultipleOf(number, 5)) text += "Buzz";
 
-                if (IsMultipleOf(number, 3))
-                    result.Add("Fizz");
-                else if (IsMultipleOf(number, 5))
-                    result.Add("Buzz");
-                else
-                    result.Add(number.ToString());
+                result.Add(BuildText(text, number));
             }
 
             return result;
         }
+
+        private static string BuildText(string text, int number) => text == "" ? number.ToString() : text;
 
         private static bool IsMultipleOf(int number, int multiple) => number % multiple == 0;
     }
