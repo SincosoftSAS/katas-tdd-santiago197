@@ -19,7 +19,8 @@ namespace Calculator
 
         public int Divide(int a, int b)
         {
-            // Hint: ¿Qué pasa si b es 0?
+            if (b == 0)
+                throw new DivideByZeroException("No se puede dividir entre cero");
             return a / b;
         }
     }
