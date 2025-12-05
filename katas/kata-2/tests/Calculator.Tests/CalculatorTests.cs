@@ -49,6 +49,20 @@ namespace Calculator.Tests
             result.Should().Be(28);
         }
 
+        [Fact]
+        public void Divide_TwoNumbers_ReturnsResult()
+        {
+            // Arrange
+            int a = 20;
+            int b = 5;
+
+            // Act
+            int result = _calculator.Divide(a, b);
+
+            // Assert
+            result.Should().Be(4);
+        }
+
 
         // TODO: Implementa más tests usando TDD
         // Suggestions:
