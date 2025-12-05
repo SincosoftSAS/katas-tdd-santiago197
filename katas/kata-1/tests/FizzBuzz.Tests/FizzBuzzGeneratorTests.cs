@@ -49,6 +49,17 @@ namespace FizzBuzz.Tests
             result.Should().BeEquivalentTo(["1", "2", "Fizz", "4", "Buzz"]);
         }
 
+        [Fact]
+        public void Generate_WithMultipleOfThree_ReturnsListWithNumbersAndFizzMultiplesOfThree()
+        {
+            // Arrange & Act
+            var result = FizzBuzzGenerator.Generate(6);
+
+            // Assert
+            result.Should().HaveCount(6);
+            result.Should().BeEquivalentTo(["1", "2", "Fizz", "4", "Buzz", "Fizz"]);
+        }
+
         // [Fact]
         // public void Generate_WithFifteen_ReturnsListWithFizzBuzz()
         // {
