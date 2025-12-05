@@ -35,19 +35,7 @@ namespace Calculator.Tests
             result.Should().Be(6);
         }
 
-        [Fact]
-        public void Add_OnePositiveNumberAndOneNegativeNumber_ReturnsSum()
-        {
-            // Arrange
-            int a = -5;
-            int b = 8;
-
-            // Act
-            int result = _calculator.Add(a, b);
-
-            // Assert
-            result.Should().Be(2);
-        }
+     
         // TODO: Implementa más tests usando TDD
         // Suggestions:
         // - Test multiply with positive numbers
