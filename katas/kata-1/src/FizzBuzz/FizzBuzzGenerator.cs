@@ -5,24 +5,25 @@ namespace FizzBuzz
         public static List<string> Generate(int count)
         {
             var result = new List<string>();
-            for (var numero = 1; numero <= count; numero++)
+            for (var number = 1; number <= count; number++)
             {
-                if (EsMultiploDe(numero, 15))
+                if (IsMultipleOf(number, 15))
                 {
                     result.Add("FizzBuzz");
                     break;
                 }
-                if (EsMultiploDe(numero, 3))
+
+                if (IsMultipleOf(number, 3))
                     result.Add("Fizz");
-                else if (EsMultiploDe(numero, 5))
+                else if (IsMultipleOf(number, 5))
                     result.Add("Buzz");
                 else
-                    result.Add(numero.ToString());
+                    result.Add(number.ToString());
             }
 
             return result;
         }
 
-        private static bool EsMultiploDe(int numero, int multiplo) => numero % multiplo == 0;
+        private static bool IsMultipleOf(int number, int multiple) => number % multiple == 0;
     }
 }
