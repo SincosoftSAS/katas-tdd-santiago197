@@ -77,6 +77,20 @@ namespace Calculator.Tests
             caller.Should().Throw<DivideByZeroException>().WithMessage("No se puede dividir entre cero");
         }
 
+        [Fact]
+        public void Divide_xOneNumberWithZero_ReturnsResult()
+        {
+            // Arrange
+            int a = 48;
+            int b = -6;
+
+            // Act
+            var result = _calculator.Divide(a, b);
+
+            // Assert
+            result.Should().Be(-8);
+        }
+
 
         // TODO: Implementa más tests usando TDD
         // Suggestions:
