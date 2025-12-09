@@ -4,11 +4,10 @@ namespace Kata4
     {
         public static int Calculate(string input)
         {
-            if (input.Contains("-"))
+            if (ThereNegativeNumbers(input))
             {
-                var negativeNumbes = input.Split(',').Select(int.Parse)
-                    .Where(n => n < 0)
-                    .ToList();
+                var numbers = ExtractValues(input, ",");
+                var negativeNumbes = GetNegativeNumbers(numbers);
                 throw new InvalidOperationException($"Negatives not allowed: [{string.Join(", ", negativeNumbes)}]");
             }
 
@@ -32,11 +31,17 @@ namespace Kata4
 
             return sum;
         }
-
-        private static string GetNumbersWithDelimiter(string input, int endDelimiter)
+        
+        private static List<int> GetNegativeNumbers(string[] numbers)
         {
-            return input.Substring(endDelimiter + 1);
+            return numbers.Select(int.Parse)
+                .Where(n => n < 0)
+                .ToList();
         }
+
+        private static bool ThereNegativeNumbers(string input) => input.Contains('-');
+
+        private static string GetNumbersWithDelimiter(string input, int endDelimiter) => input[(endDelimiter + 1)..];
 
         private static string GetDelimiter(string input, int endDelimiter) => input[2..endDelimiter];
 
@@ -44,12 +49,12 @@ namespace Kata4
 
         private static string[] ExtractValues(string input, string delimiter) => input.Split(delimiter);
 
+        private static bool IsEmptyString(string input) => input == "";
+
         private static string CleanNewLines(string input)
         {
             input = input.Replace("\n", ",");
             return input;
         }
-
-        private static bool IsEmptyString(string input) => input == "";
     }
 }
