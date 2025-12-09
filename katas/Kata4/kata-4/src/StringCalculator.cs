@@ -4,7 +4,17 @@ namespace Kata4
     {
         public static int Calculate(string input)
         {
+            if (input.StartsWith("//"))
+            {
+                var endDelimiter = input.IndexOf('\n');
+                var delimiter = input.Substring(2, endDelimiter - 2);
+                var extractedNumbers = input.Substring(endDelimiter + 1);
+                var numbers = extractedNumbers.Split(delimiter);
+                return numbers.Sum(int.Parse);
+            }
+
             input = CleanNewLines(input);
+
             var values = ExtractValues(input);
             if (IsEmptyString(input))
                 return 0;
