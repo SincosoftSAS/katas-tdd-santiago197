@@ -4,8 +4,9 @@ namespace LeapYear
     {
         public static bool IsLeapYear(int year)
         {
-            return year == 2004 ? true : false;
-            
+            var isLeapYear = false;
+            isLeapYear = year % 400 == 0 || year % 4 == 0;
+            return isLeapYear;
         }
     }
 }
