@@ -33,5 +33,11 @@ namespace Kata4.tests
         {
             Assert.Equal(6, Calculator.Calculate("1\n2,3"));
         }
+
+        [Fact]
+        public void Calculate_NumbersWithCustomDelimiter_ReturnsSum()
+        {
+            Assert.Equal(3, Calculator.Calculate("//;\n1;2"));
+        }
     }
 }
