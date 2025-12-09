@@ -5,18 +5,15 @@ namespace Kata4
         public static int Calculate(string input)
         {
             var values = input.Split(',');
-            if (input == "")
+            if (IsEmptyString(input))
                 return 0;
             var sum = values.Length == 1 ? int.Parse(input) : 0;
 
-            if (values.Length > 1)
-                foreach (var number in values)
-                {
-                    sum += int.Parse(number);
-                }
-
+            if (values.Length > 1) sum += values.Sum(int.Parse);
 
             return sum;
         }
+
+        private static bool IsEmptyString(string input) => input == "";
     }
 }
