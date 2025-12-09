@@ -1,3 +1,5 @@
+using FluentAssertions;
+
 namespace Kata4.tests
 {
     public class CalculatorTests
@@ -38,6 +40,13 @@ namespace Kata4.tests
         public void Calculate_NumbersWithCustomDelimiter_ReturnsSum()
         {
             Assert.Equal(3, Calculator.Calculate("//;\n1;2"));
+        }
+
+        [Fact]
+        public void Calculate_NumbersNegative_ReturnsException()
+        {
+            Action caller = () => Calculator.Calculate("1,-2,3,-4");
+            caller.Should().ThrowExactly<InvalidOperationException>().WithMessage("Negatives not allowed: [-2,-4]");
         }
     }
 }
