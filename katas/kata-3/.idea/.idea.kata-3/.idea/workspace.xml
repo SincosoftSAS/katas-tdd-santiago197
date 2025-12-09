@@ -29,9 +29,15 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/santiago.rodriguez/Desktop/Cosmos/katas-tdd-santiago197/katas/kata-3/kata-3/src/LeapYear.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/kata-3/src/LeapYear.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/santiago.rodriguez/Desktop/Cosmos/katas-tdd-santiago197/katas/kata-3/kata-3/src/LeapYear.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/santiago.rodriguez/Desktop/Cosmos/katas-tdd-santiago197/katas/kata-3/kata-3/tests/LeapYearTests.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -46,7 +52,6 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1765235792338</updated>
       <workItem from="1765235793978" duration="41000" />
-      <workItem from="1765237560245" duration="4081000" />
+      <workItem from="1765237560245" duration="4765000" />
     </task>
     <task id="LOCAL-00001" summary="🔴🟢Year_DivisibleBy4_ButNotBy100_IsLeapYear">
       <option name="closed" value="true" />
@@ -163,7 +168,7 @@
               <option value="130" />
             </startOffsets>
             <endOffsets>
-              <option value="177" />
+              <option value="165" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
