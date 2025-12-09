@@ -4,6 +4,7 @@ namespace Kata4
     {
         public static int Calculate(string input)
         {
+            input = input.Replace("\n", ",");
             var values = input.Split(',');
             if (IsEmptyString(input))
                 return 0;
