@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43d78467-162d-4165-b20a-d5c8390196e1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;santiago197&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SincosoftSAS/katas-tdd-santiago197.git&quot;,
+    &quot;accountId&quot;: &quot;86f38ecd-58dc-42df-82fe-31a4d8e3e46c&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/santiago.rodriguez/Desktop/Cosmos/katas-tdd-santiago197/katas/kata-3/kata-3/tests/LeapYearTests.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="36aDSn7zm7hNG4CRSD0XTnx2juZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "1e3f49b9-9c26-4013-a0f5-6be71a7c6da7.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43d78467-162d-4165-b20a-d5c8390196e1" name="Changes" comment="" />
+      <created>1765235792338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765235792338</updated>
+      <workItem from="1765235793978" duration="41000" />
+      <workItem from="1765237560245" duration="4081000" />
+    </task>
+    <task id="LOCAL-00001" summary="🔴🟢Year_DivisibleBy4_ButNotBy100_IsLeapYear">
+      <option name="closed" value="true" />
+      <created>1765237709022</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765237709022</updated>
+    </task>
+    <task id="LOCAL-00002" summary="🔴Year2000_DivisibleBy400_IsLeapYear">
+      <option name="closed" value="true" />
+      <created>1765238682360</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765238682360</updated>
+    </task>
+    <task id="LOCAL-00003" summary="🟢Year2000_DivisibleBy400_IsLeapYear">
+      <option name="closed" value="true" />
+      <created>1765239065725</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765239065725</updated>
+    </task>
+    <task id="LOCAL-00004" summary="🔴Year1900_DivisibleBy100NotDivisibleBy400_IsNotLeapYear">
+      <option name="closed" value="true" />
+      <created>1765239648666</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765239648666</updated>
+    </task>
+    <task id="LOCAL-00005" summary="🔴🟢Year1900_DivisibleBy100NotDivisibleBy400_IsNotLeapYear">
+      <option name="closed" value="true" />
+      <created>1765289891411</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765289891411</updated>
+    </task>
+    <task id="LOCAL-00006" summary="🔵Year1900_DivisibleBy100NotDivisibleBy400_IsNotLeapYear">
+      <option name="closed" value="true" />
+      <created>1765290259329</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765290259329</updated>
+    </task>
+    <task id="LOCAL-00007" summary="🔵Refactor, separado en metodos">
+      <option name="closed" value="true" />
+      <created>1765290640978</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765290640978</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Year_DivisibleBy4_ButNotBy100_IsLeapYear" />
+    <MESSAGE value="Year2000_DivisibleBy400_IsLeapYear" />
+    <MESSAGE value="Year2000_DivisibleBy400_IsLeapYear" />
+    <MESSAGE value="Year1900_DivisibleBy100NotDivisibleBy400_IsNotLeapYear" />
+    <MESSAGE value="Year1900_DivisibleBy100NotDivisibleBy400_IsNotLeapYear" />
+    <MESSAGE value="Year1900_DivisibleBy100NotDivisibleBy400_IsNotLeapYear" />
+    <MESSAGE value="Refactor, separado en metodos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor, separado en metodos" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/kata-3/src/LeapYear.cs</url>
+          <line>6</line>
+          <properties documentPath="C:\Users\santiago.rodriguez\Desktop\Cosmos\katas-tdd-santiago197\katas\kata-3\kata-3\src\LeapYear.cs" containingFunctionPresentation="Method 'IsLeapYear'">
+            <startOffsets>
+              <option value="130" />
+            </startOffsets>
+            <endOffsets>
+              <option value="177" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
