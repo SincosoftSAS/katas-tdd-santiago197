@@ -5,7 +5,10 @@ namespace LeapYear
         public static bool IsLeapYear(int year)
         {
             var isLeapYear = false;
-            isLeapYear = EsDivisiblePor400(year) || EsDivisiblePor4(year);
+            if (year % 100 == 0 && !EsDivisiblePor400(year))
+                isLeapYear = false;
+            else
+                isLeapYear = EsDivisiblePor400(year) || EsDivisiblePor4(year);
             return isLeapYear;
         }
 
