@@ -4,13 +4,12 @@ namespace LeapYear
     {
         public static bool IsLeapYear(int year)
         {
-            var isLeapYear = false;
-            if (EsDivisiblePor100(year) && !EsDivisiblePor400(year))
-                isLeapYear = false;
-            else
-                isLeapYear = EsDivisiblePor400(year) || EsDivisiblePor4(year);
-            return isLeapYear;
+            return !NoEsBisiesto(year) && EsBisiesto(year);
         }
+
+        private static bool EsBisiesto(int year) => EsDivisiblePor400(year) || EsDivisiblePor4(year);
+
+        private static bool NoEsBisiesto(int year) => EsDivisiblePor100(year) && !EsDivisiblePor400(year);
 
         private static bool EsDivisiblePor100(int year) => year % 100 == 0;
 
