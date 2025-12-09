@@ -7,9 +7,16 @@ namespace Kata4
             var values = input.Split(',');
             if (input == "")
                 return 0;
+            var sum = values.Length == 1 ? int.Parse(input) : 0;
+
             if (values.Length > 1)
-                return int.Parse(values[0]) + int.Parse(values[1]);
-            return int.Parse(input);
+                foreach (var number in values)
+                {
+                    sum += int.Parse(number);
+                }
+
+
+            return sum;
         }
     }
 }
