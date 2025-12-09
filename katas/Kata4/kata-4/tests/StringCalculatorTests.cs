@@ -20,6 +20,11 @@ namespace Kata4.tests
         public void Calculate_TwoNumbers_ReturnsSum()
         {
             Assert.Equal(3, Calculator.Calculate("1,2"));
+        } 
+        [Fact]
+        public void Calculate_MultipleNumberNumbers_ReturnsSum()
+        {
+            Assert.Equal(15, Calculator.Calculate("1,2,3,4,5"));
         }
     }
 }
