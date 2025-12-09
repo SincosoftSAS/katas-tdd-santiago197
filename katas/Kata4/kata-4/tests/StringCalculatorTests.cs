@@ -46,7 +46,7 @@ namespace Kata4.tests
         public void Calculate_NumbersNegative_ReturnsException()
         {
             Action caller = () => Calculator.Calculate("1,-2,3,-4");
-            caller.Should().ThrowExactly<InvalidOperationException>().WithMessage("Negatives not allowed: [-2,-4]");
+            caller.Should().ThrowExactly<InvalidOperationException>().WithMessage("Negatives not allowed: [-2, -4]");
         }
     }
 }

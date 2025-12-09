@@ -4,6 +4,14 @@ namespace Kata4
     {
         public static int Calculate(string input)
         {
+            if (input.Contains("-"))
+            {
+                var negativeNumbes = input.Split(',').Select(int.Parse)
+                    .Where(n => n < 0)
+                    .ToList();
+                throw new InvalidOperationException($"Negatives not allowed: [{string.Join(", ", negativeNumbes)}]");
+            }
+
             if (HasDelimiter(input))
             {
                 var endDelimiter = input.IndexOf('\n');
