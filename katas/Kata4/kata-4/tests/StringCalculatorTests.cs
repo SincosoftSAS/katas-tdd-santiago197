@@ -48,5 +48,11 @@ namespace Kata4.tests
             Action caller = () => Calculator.Calculate("1,-2,3,-4");
             caller.Should().ThrowExactly<InvalidOperationException>().WithMessage("Negatives not allowed: [-2, -4]");
         }
+
+        [Fact]
+        public void Calculate_NumbersGreaterThan1000Ignore_ReturnsSum()
+        {
+            Assert.Equal(2, Calculator.Calculate("2,1001"));
+        }
     }
 }

@@ -16,22 +16,28 @@ namespace Kata4
                 var endDelimiter = input.IndexOf('\n');
                 var extractedNumbers = GetNumbersWithDelimiter(input, endDelimiter);
                 var delimiter = GetDelimiter(input, endDelimiter);
-                var numbers = ExtractValues(extractedNumbers, delimiter);
-                return numbers.Sum(int.Parse);
+                var stringNumbers = ExtractValues(extractedNumbers, delimiter);
+                var numbers = stringNumbers.Select(int.Parse)
+                    .Where(number => number <= 1000)
+                    .ToList();
+                return numbers.Sum();
             }
 
             input = CleanNewLines(input);
 
             var values = ExtractValues(input, ",");
+            var numbersReturn = values.Select(int.Parse)
+                .Where(number => number <= 1000)
+                .ToList();
             if (IsEmptyString(input))
                 return 0;
             var sum = values.Length == 1 ? int.Parse(input) : 0;
 
-            if (values.Length > 1) sum += values.Sum(int.Parse);
+            if (values.Length > 1) sum += numbersReturn.Sum();
 
             return sum;
         }
-        
+
         private static List<int> GetNegativeNumbers(string[] numbers)
         {
             return numbers.Select(int.Parse)
