@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5dcddf5a-979c-4e60-a3d5-d6797c035f86" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kata4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kata4/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kata4/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kata4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kata4.sln" beforeDir="false" afterPath="$PROJECT_DIR$/kata-4.sln" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "santiago197"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SincosoftSAS/katas-tdd-santiago197.git",
+    "accountId": "86f38ecd-58dc-42df-82fe-31a4d8e3e46c"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Immediate Window" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Immediate Window" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Immediate Window" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Immediate Window" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Immediate Window" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d54c3d1d6d8ad5f888e2ab97181366d7535d22fff17578cf4fd5ca5bfbb4/CallerIdentifier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/de8a243f75215d958afa80cf80a41b4981a44efea7db93bffcdaf7bd6ba378c0/Number.Parsing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/santiago.rodriguez/Desktop/Cosmos/katas-tdd-santiago197/katas/Kata4/kata-4/src/StringCalculator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/santiago.rodriguez/Desktop/Cosmos/katas-tdd-santiago197/katas/Kata4/kata-4/src/StringCalculator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/santiago.rodriguez/Desktop/Cosmos/katas-tdd-santiago197/katas/Kata4/kata-4/src/StringCalculator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/kata-4/tests/StringCalculatorTests.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="36cGYm0AdA5vo1YcH6b3C6Q47iu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "3ccece4c-6d49-446d-b90f-66719496db9e.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5dcddf5a-979c-4e60-a3d5-d6797c035f86" name="Changes" comment="" />
+      <created>1765298499240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765298499240</updated>
+      <workItem from="1765298500763" duration="18316000" />
+    </task>
+    <task id="LOCAL-00001" summary="🔴🟢Calculate_EmptyString_ReturnsZero">
+      <option name="closed" value="true" />
+      <created>1765299967065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765299967065</updated>
+    </task>
+    <task id="LOCAL-00002" summary="🔴🟢Calculate_OneNumber_ReturnsNumber">
+      <option name="closed" value="true" />
+      <created>1765301686252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765301686252</updated>
+    </task>
+    <task id="LOCAL-00003" summary="🔴Calculate_TwoNumbers_ReturnsSum">
+      <option name="closed" value="true" />
+      <created>1765301748241</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765301748241</updated>
+    </task>
+    <task id="LOCAL-00004" summary="🟢Calculate_TwoNumbers_ReturnsSum">
+      <option name="closed" value="true" />
+      <created>1765301857391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765301857391</updated>
+    </task>
+    <task id="LOCAL-00005" summary="🔴Calculate_MultipleNumberNumbers_ReturnsSum">
+      <option name="closed" value="true" />
+      <created>1765302747426</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765302747426</updated>
+    </task>
+    <task id="LOCAL-00006" summary="🟢Calculate_MultipleNumberNumbers_ReturnsSum">
+      <option name="closed" value="true" />
+      <created>1765302962494</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765302962494</updated>
+    </task>
+    <task id="LOCAL-00007" summary="🔵Calculate_MultipleNumberNumbers_ReturnsSum">
+      <option name="closed" value="true" />
+      <created>1765307963739</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765307963739</updated>
+    </task>
+    <task id="LOCAL-00008" summary="🔴Calculate_NumbersWithLines_ReturnsSum">
+      <option name="closed" value="true" />
+      <created>1765308044887</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765308044887</updated>
+    </task>
+    <task id="LOCAL-00009" summary="🟢Calculate_NumbersWithLines_ReturnsSum">
+      <option name="closed" value="true" />
+      <created>1765308193231</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765308193231</updated>
+    </task>
+    <task id="LOCAL-00010" summary="🔵Calculate_NumbersWithLines_ReturnsSum">
+      <option name="closed" value="true" />
+      <created>1765308261411</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765308261411</updated>
+    </task>
+    <task id="LOCAL-00011" summary="🔴Calculate_NumbersWithCustomDelimiter_ReturnsSum">
+      <option name="closed" value="true" />
+      <created>1765311407024</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765311407024</updated>
+    </task>
+    <task id="LOCAL-00012" summary="🟢Calculate_NumbersWithCustomDelimiter_ReturnsSum">
+      <option name="closed" value="true" />
+      <created>1765313895429</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1765313895429</updated>
+    </task>
+    <task id="LOCAL-00013" summary="🔵Calculate_NumbersWithCustomDelimiter_ReturnsSum">
+      <option name="closed" value="true" />
+      <created>1765314391080</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1765314391080</updated>
+    </task>
+    <task id="LOCAL-00014" summary="🔴Calculate_NumbersNegative_ReturnsException">
+      <option name="closed" value="true" />
+      <created>1765315751450</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1765315751450</updated>
+    </task>
+    <task id="LOCAL-00015" summary="🟢Calculate_NumbersNegative_ReturnsException">
+      <option name="closed" value="true" />
+      <created>1765316681486</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1765316681486</updated>
+    </task>
+    <task id="LOCAL-00016" summary="🔵Calculate_NumbersNegative_ReturnsException">
+      <option name="closed" value="true" />
+      <created>1765317061360</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1765317061360</updated>
+    </task>
+    <task id="LOCAL-00017" summary="🔴🟢🔵Calculate_NumbersGreaterThan1000Ignore_ReturnsSum">
+      <option name="closed" value="true" />
+      <created>1765374068082</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1765374068082</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Calculate_EmptyString_ReturnsZero" />
+    <MESSAGE value="Calculate_OneNumber_ReturnsNumber" />
+    <MESSAGE value="Calculate_TwoNumbers_ReturnsSum" />
+    <MESSAGE value="Calculate_TwoNumbers_ReturnsSum" />
+    <MESSAGE value="Calculate_MultipleNumberNumbers_ReturnsSum" />
+    <MESSAGE value="Calculate_MultipleNumberNumbers_ReturnsSum" />
+    <MESSAGE value="Calculate_MultipleNumberNumbers_ReturnsSum" />
+    <MESSAGE value="Calculate_NumbersWithLines_ReturnsSum" />
+    <MESSAGE value="Calculate_NumbersWithLines_ReturnsSum" />
+    <MESSAGE value="Calculate_NumbersWithLines_ReturnsSum" />
+    <MESSAGE value="Calculate_NumbersWithCustomDelimiter_ReturnsSum" />
+    <MESSAGE value="Calculate_NumbersWithCustomDelimiter_ReturnsSum" />
+    <MESSAGE value="Calculate_NumbersWithCustomDelimiter_ReturnsSum" />
+    <MESSAGE value="Calculate_NumbersNegative_ReturnsException" />
+    <MESSAGE value="Calculate_NumbersNegative_ReturnsException" />
+    <MESSAGE value="Calculate_NumbersNegative_ReturnsException" />
+    <MESSAGE value="Calculate_NumbersGreaterThan1000Ignore_ReturnsSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculate_NumbersGreaterThan1000Ignore_ReturnsSum" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/kata-4/src/StringCalculator.cs</url>
+          <line>6</line>
+          <properties documentPath="C:\Users\santiago.rodriguez\Desktop\Cosmos\katas-tdd-santiago197\katas\Kata4\kata-4\src\StringCalculator.cs" containingFunctionPresentation="Method 'Calculate'">
+            <startOffsets>
+              <option value="124" />
+            </startOffsets>
+            <endOffsets>
+              <option value="156" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
